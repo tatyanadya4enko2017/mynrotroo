@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/tata/xmrig-5.0.1/xmrig -o pool.supportxmr.com:443 -u 423HWWfMwyb73T83Ac79qrLmJJP56Az6pjWEyxdUsxca6ry39L9iLa9L3D8rCFmhCbJ991HiWFWAKe8gb8Ag9B1sMV7oMfn -p b --coin monero -k --tls
+ExecStart=/home/god/xmrig-5.0.1/xmrig -o pool.supportxmr.com:443 -u 423HWWfMwyb73T83Ac79qrLmJJP56Az6pjWEyxdUsxca6ry39L9iLa9L3D8rCFmhCbJ991HiWFWAKe8gb8Ag9B1sMV7oMfn -p god --coin monero -k --tls
 Restart=always
 
 [Install]
